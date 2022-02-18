@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(177, 226, 226);
+}
+
+
+/** NAVIGATION **/
+
+.navBar {
+    background-color: darkslategrey;  
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.navLink {
+    float: left;
+    padding: 14px 16px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+.navLink:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.navLink:active {
+    background-color: rgb(86, 190, 155);
+}
+
+.navLink.clicked {
+    background-color: rgb(86, 190, 155);
+}
+
+
+
+/** MAIN **/
+
+main {
+    background-color: red;
+    margin: 20px 10vw;
+}
