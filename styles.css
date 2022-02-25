@@ -138,6 +138,95 @@ p {
 
 /** HADES PAGE **/
 
-.hadesImageWheel {
+#radioBtns {
+    font-size: 36px;
+}
+
+#radioBtnsLabel {
+    margin-right: 15px;
+}
+
+.customRadioBtn {
+    position: relative;
+    display: inline;
+    margin-right: 40px;
+}
+
+/* Hide default radio buttons */
+.customRadioBtn input[type=radio] {
+    position: absolute;
+    opacity: 0; 
+    cursor: pointer;   
+    top: 35%;
+    transform: scale(2.5);
+    z-index: 10;
+
+}
+
+/* Create custom radio button */
+.checkmark {
+    position: absolute;
+    margin-top: 10px;
+    height: 26px;
+    width: 26px;
+    background-color: #eee;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Hover over Button */
+.customRadioBtn:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* Custom Radio Button Checked - add blue */
+.customRadioBtn input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create white dot for checked button - hidden */
+.checkmark::after {
+    content: '';
+    display: none;
+    position: absolute;
+}
+
+/* Show dot when checked */
+.customRadioBtn input:checked ~ .checkmark::after {
+    display: block;
+}
+
+/* Style dot */
+.checkmark::after {
+    top: 8px;
+    left: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.imageWheel {
+    position: relative;
+    border: black;
+}
+
+.hadesScrollImage {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     width: 900px;
 }
+
+#hadesImage1 {
+    display: none;
+}
+
+#hadesImage2 {
+    display: none;
+}
+
+#hadesImage3 {
+    display: none;
+}
+

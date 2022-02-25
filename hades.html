@@ -22,10 +22,30 @@
         </header>
         <main role="main">
             <article role="article">
+
+                <div id="radioBtns">
+                    <label id="radioBtnsLabel" for="imageWheel">Hades Game Images</label>
+
+                    <div class="customRadioBtn">
+                        <input type="radio" name="imageWheel" id="olympianGods" >
+                        <span class="checkmark"></span>
+                    </div>
+
+                    <div class="customRadioBtn">
+                        <input type="radio" name="imageWheel" id="battleScene" >
+                        <span class="checkmark"></span>
+                    </div>
+
+                    <div class="customRadioBtn">
+                        <input type="radio" name="imageWheel" id="mirror" >
+                        <span class="checkmark"></span>
+                    </div>
+                </div>
+
                 <div class="imageWheel">
-                    <img src="./assests/hades/Hades_Olympian_Gods.jfif" class="hadesImageWheel" />
-                    <img src="./assests/hades/hades_battle.jpg" class="hadesImageWheel" />
-                    <img src="./assests/hades/hades_mirror.jpg" class="hadesImageWheel" />
+                    <img id="hadesImage1" class="hadesScrollImage" src="./assests/hades/Hades_Olympian_Gods.jfif" />
+                    <img id="hadesImage2" class="hadesScrollImage" src="./assests/hades/hades_battle.jpg" />
+                    <img id="hadesImage3" class="hadesScrollImage" src="./assests/hades/hades_mirror.jpg" />
                 </div>
             </article>
         </main>
