@@ -211,10 +211,10 @@ p {
     border: black;
 }
 
-.hadesScrollImage {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+.ScrollImage {
+    position: absolute;
+    top: 60px;
+    transform: translateX(50%);
     width: 900px;
 }
 
@@ -222,11 +222,22 @@ p {
     display: none;
 }
 
+input:checked ~ #hadesImage1 {
+    display: block;
+}
+
 #hadesImage2 {
     display: none;
+}
+
+input:checked ~ #hadesImage2 {
+    display: block;
 }
 
 #hadesImage3 {
     display: none;
 }
 
+input:checked ~ #hadesImage3 {
+    display: block;
+}
