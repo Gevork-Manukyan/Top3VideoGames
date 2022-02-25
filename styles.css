@@ -35,6 +35,14 @@ h1 {
     font-size: 1.7rem;
 }
 
+.navLink:hover {
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+
+    background-color: aquamarine;
+    color: black;
+}
 
 .navLink:active {
     background-color: rgb(86, 190, 155);
@@ -44,10 +52,7 @@ h1 {
     background-color: rgb(86, 190, 155);
 }
 
-.navLink:hover {
-    background-color: aquamarine;
-    color: black;
-}
+
 
 
 
@@ -63,6 +68,7 @@ section {
     margin-bottom: 25px;
     padding: 20px 4vw;
     border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
 
     overflow: hidden;   /*Keeps img in p*/
 }
