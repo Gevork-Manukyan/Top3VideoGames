@@ -89,7 +89,7 @@ p {
     line-height: 40px;
 }
 
-.image-link {
+.imageLink {
     text-decoration: none;
 }
 
@@ -131,4 +131,13 @@ p {
         height: 150px;
         border: solid darkslategrey 5px;
     }
+}
+
+
+
+
+/** HADES PAGE **/
+
+.hadesImageWheel {
+    width: 900px;
 }
