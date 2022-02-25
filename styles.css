@@ -33,6 +33,7 @@ h1 {
     text-decoration: none;
     text-align: center;
     font-size: 1.7rem;
+    user-select: none;
 }
 
 .navLink:hover {
@@ -88,6 +89,10 @@ p {
     line-height: 40px;
 }
 
+.image-link {
+    text-decoration: none;
+}
+
 .image {
     height: 500px;
     float: right;
@@ -96,6 +101,16 @@ p {
 
     border: solid darkslategrey 15px;
     border-radius: 10px;
+
+    transition: transform 0.2s;
+    transition-timing-function: linear;
+
+    user-select: none;
+}
+
+.image:hover {
+    /* border: none; */
+    transform: scale(1.05);
 }
 
 
