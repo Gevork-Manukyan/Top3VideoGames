@@ -1,29 +1,40 @@
 body {
     background-color: rgb(177, 226, 226);
+    margin: 0px 0px;
 }
 
 
 /** NAVIGATION **/
 
+header {
+    background-color: darkslategrey;  
+    transform: translateY(-30px);
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 20px;
+    margin-left: 15px;
+}
+
 .navBar {
     background-color: darkslategrey;  
     overflow: hidden;
-    border-radius: 5px;
 }
 
 .navLink {
     float: left;
-    padding: 14px 16px;
+    padding: 18px 24px;
     color: aliceblue;
     text-decoration: none;
     text-align: center;
-    font-size: 17px;
+    font-size: 28px;
 }
 
-.navLink:hover {
-    background-color: aquamarine;
-    color: black;
-}
 
 .navLink:active {
     background-color: rgb(86, 190, 155);
@@ -33,11 +44,62 @@ body {
     background-color: rgb(86, 190, 155);
 }
 
+.navLink:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
 
 
 /** MAIN **/
 
 main {
-    background-color: red;
-    margin: 20px 10vw;
+    margin: 20px 12vw;
+    border-radius: 10px;
+}
+
+section {
+    background-color: aliceblue;
+    margin-bottom: 25px;
+    padding: 20px 4vw;
+    border-radius: 10px;
+}
+
+
+
+article {
+    padding: 20px 30px;
+}
+
+p {
+    font-size: 24px;
+    overflow: hidden;   /*Keeps img in p*/
+}
+
+.image {
+    height: 500px;
+    float: right;
+
+    border: solid darkslategrey 15px;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    main {
+        margin: 20px 6vw;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    main {
+        margin: 20px 0vw;
+    }
+
+    .image {
+        height: 150px;
+        border: solid darkslategrey 5px;
+    }
 }
