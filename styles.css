@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 2.3rem;
     background-color: aliceblue;
     border-radius: 5px;
     width: fit-content;
@@ -32,7 +32,7 @@ h1 {
     color: aliceblue;
     text-decoration: none;
     text-align: center;
-    font-size: 28px;
+    font-size: 1.7rem;
 }
 
 
@@ -63,22 +63,30 @@ section {
     margin-bottom: 25px;
     padding: 20px 4vw;
     border-radius: 10px;
+
+    overflow: hidden;   /*Keeps img in p*/
 }
-
-
 
 article {
     padding: 20px 30px;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 p {
     font-size: 24px;
-    overflow: hidden;   /*Keeps img in p*/
+    font-size: 1.55rem;
+    text-align: justify;
+    line-height: 40px;
 }
 
 .image {
     height: 500px;
     float: right;
+    margin-left: 35px;
+    margin-bottom: 40px;
 
     border: solid darkslategrey 15px;
     border-radius: 10px;
