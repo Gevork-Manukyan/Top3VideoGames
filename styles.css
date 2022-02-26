@@ -138,8 +138,10 @@ p {
 
 /** HADES PAGE **/
 
-#radioBtns {
+#imageWheel {
     font-size: 36px;
+    text-align: center;
+    border: rebeccapurple solid;
 }
 
 #radioBtnsLabel {
@@ -206,15 +208,10 @@ p {
     background-color: white;
 }
 
-.imageWheel {
-    position: relative;
-    border: black;
-}
-
 .ScrollImage {
     position: absolute;
     top: 60px;
-    transform: translateX(50%);
+    /* transform: translateX(50%); */
     width: 900px;
 }
 
