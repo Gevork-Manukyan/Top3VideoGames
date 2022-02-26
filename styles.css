@@ -141,7 +141,6 @@ p {
 #imageWheel {
     font-size: 36px;
     text-align: center;
-    border: rebeccapurple solid;
 }
 
 #radioBtnsLabel {
@@ -211,7 +210,7 @@ p {
 .ScrollImage {
     position: absolute;
     top: 60px;
-    /* transform: translateX(50%); */
+    transform: translateX(50%);
     width: 900px;
 }
 
