@@ -24,27 +24,35 @@
             <article role="article">
                 
                 <aside>
-                    <div id="imageWheel">
-                        <!-- TODO: Add Description of 'label' and 'for' -->
-                        <label id="radioBtnsLabel" for="imageWheel">Slay the Spire Game Images</label>
-    
-                        <div class="customRadioBtn">
-                            <!-- TODO: Add Description of 'type', 'input', and 'checked' -->
-                            <input type="radio" name="imageWheel" id="olympianGods" checked >
-                            <span class="checkmark"></span>
-                            <img id="slayTheSpireImage1" class="ScrollImage" src="./assests/slaythespire/slayTheSpire_characters.jpg" />
-                        </div>
-    
-                        <div class="customRadioBtn">
-                            <input type="radio" name="imageWheel" id="battleScene" >
-                            <span class="checkmark"></span>
-                            <img id="slayTheSpireImage2" class="ScrollImage" src="./assests/slaythespire/slayTheSpire_battle.jpg" />
-                        </div>
-    
-                        <div class="customRadioBtn">
-                            <input type="radio" name="imageWheel" id="mirror" >
-                            <span class="checkmark"></span>
-                            <img id="slayTheSpireImage3" class="ScrollImage" src="./assests/slaythespire/slayTheSpire_cards.jpg" />
+                    <div id="imageWheelWrapper">
+                        <div id="imageWheel">
+                            <!-- TODO: Add Description of 'label' and 'for' -->
+                            <label id="radioBtnsLabel" for="imageWheel">Slay the Spire Game Images</label>
+        
+                            <div class="customRadioBtn">
+                                <!-- TODO: Add Description of 'type', 'input', and 'checked' -->
+                                <input type="radio" name="imageWheel" id="olympianGods" checked >
+                                <span class="checkmark"></span>
+                                <div class="scrollImageWrapper">
+                                    <img id="slayTheSpireImage1" class="ScrollImage" src="./assests/slaythespire/slayTheSpire_characters.jpg" />
+                                </div>
+                            </div>
+        
+                            <div class="customRadioBtn">
+                                <input type="radio" name="imageWheel" id="battleScene" >
+                                <span class="checkmark"></span>
+                                <div class="scrollImageWrapper">
+                                    <img id="slayTheSpireImage2" class="ScrollImage" src="./assests/slaythespire/slayTheSpire_battle.jpg" />
+                                </div>
+                            </div>
+        
+                            <div class="customRadioBtn">
+                                <input type="radio" name="imageWheel" id="mirror" >
+                                <span class="checkmark"></span>
+                                <div class="scrollImageWrapper">
+                                    <img id="slayTheSpireImage3" class="ScrollImage" src="./assests/slaythespire/slayTheSpire_cards.jpg" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </aside>
