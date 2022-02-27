@@ -255,3 +255,15 @@ input:checked ~ #slayTheSpireImage2 {
 input:checked ~ #slayTheSpireImage3 {
     height: 506px;
 }
+
+input:checked ~ #deadCellsImage1 {
+    height: 506px;
+}
+
+input:checked ~ #deadCellsImage2 {
+    height: 506px;
+}
+
+input:checked ~ #deadCellsImage3 {
+    height: 506px;
+}
