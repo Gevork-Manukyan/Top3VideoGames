@@ -280,3 +280,20 @@ input:checked ~ .scrollImageWrapper #deadCellsImage2 {
 input:checked ~ .scrollImageWrapper #deadCellsImage3 {
     height: 506px;
 }
+
+
+/** HADES **/
+
+.weaponsList dt {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.weaponsList dd {
+    font-size: 24px;
+    font-size: 1.55rem;
+    text-align: justify;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
