@@ -215,25 +215,43 @@ p {
 }
 
 #hadesImage1 {
-    display: none;
+    height: 0px;
 }
 
 input:checked ~ #hadesImage1 {
     display: block;
+
+    transition-property: height;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    height: 367px;
 }
 
 #hadesImage2 {
-    display: none;
+    height: 0px;
+    z-index: 0;
 }
 
 input:checked ~ #hadesImage2 {
     display: block;
+
+    transition-property: height;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+
+    height: 505px;
 }
 
 #hadesImage3 {
-    display: none;
+    height: 0px;
 }
 
 input:checked ~ #hadesImage3 {
     display: block;
+
+    transition-property: height;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+
+    height: 506px;
 }
