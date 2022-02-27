@@ -209,12 +209,11 @@ p {
 
 .ScrollImage {
     position: absolute;
+    border-radius: 10px;
     top: 60px;
-    transform: translateX(50%);
     width: 900px;
-}
+    transform: translateX(50%);
 
-#hadesImage1 {
     height: 0px;
     display: block;
 
@@ -222,6 +221,7 @@ p {
     transition-duration: 0.2s;
     transition-timing-function: linear;
 }
+
 
 input:checked ~ #hadesImage1 {
     display: block;
@@ -230,15 +230,6 @@ input:checked ~ #hadesImage1 {
     transition-duration: 0.2s;
     transition-timing-function: linear;
     height: 367px;
-}
-
-#hadesImage2 {
-    height: 0px;
-    display: block;
-
-    transition-property: height;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
 }
 
 input:checked ~ #hadesImage2 {
@@ -251,14 +242,6 @@ input:checked ~ #hadesImage2 {
     height: 505px;
 }
 
-#hadesImage3 {
-    height: 0px;
-    display: block;
-
-    transition-property: height;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
-}
 
 input:checked ~ #hadesImage3 {
     display: block;
