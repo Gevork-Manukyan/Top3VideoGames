@@ -222,33 +222,23 @@ p {
     transition-timing-function: linear;
 }
 
-
-input:checked ~ #hadesImage1 {
+input:checked ~ .ScrollImage {
     display: block;
 
     transition-property: height;
     transition-duration: 0.2s;
     transition-timing-function: linear;
+}
+
+input:checked ~ #hadesImage1 {
     height: 367px;
 }
 
 input:checked ~ #hadesImage2 {
-    display: block;
-
-    transition-property: height;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
-
     height: 505px;
 }
 
 
 input:checked ~ #hadesImage3 {
-    display: block;
-
-    transition-property: height;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
-
     height: 506px;
 }
