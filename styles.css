@@ -216,6 +216,11 @@ p {
 
 #hadesImage1 {
     height: 0px;
+    display: block;
+
+    transition-property: height;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
 }
 
 input:checked ~ #hadesImage1 {
@@ -229,7 +234,11 @@ input:checked ~ #hadesImage1 {
 
 #hadesImage2 {
     height: 0px;
-    z-index: 0;
+    display: block;
+
+    transition-property: height;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
 }
 
 input:checked ~ #hadesImage2 {
@@ -244,6 +253,11 @@ input:checked ~ #hadesImage2 {
 
 #hadesImage3 {
     height: 0px;
+    display: block;
+
+    transition-property: height;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
 }
 
 input:checked ~ #hadesImage3 {
