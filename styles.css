@@ -136,7 +136,7 @@ p {
 
 
 
-/** HADES PAGE **/
+/** IMAGE WHEEL AND RADIO BUTTONS **/
 
 #imageWheel {
     font-size: 36px;
@@ -207,6 +207,7 @@ p {
     background-color: white;
 }
 
+/* Scroll Wheel Images */
 .ScrollImage {
     position: absolute;
     border-radius: 10px;
@@ -240,5 +241,17 @@ input:checked ~ #hadesImage2 {
 
 
 input:checked ~ #hadesImage3 {
+    height: 506px;
+}
+
+input:checked ~ #slayTheSpireImage1 {
+    height: 506px;
+}
+
+input:checked ~ #slayTheSpireImage2 {
+    height: 600px;
+}
+
+input:checked ~ #slayTheSpireImage3 {
     height: 506px;
 }
