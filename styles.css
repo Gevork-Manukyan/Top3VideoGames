@@ -137,6 +137,11 @@ p {
 
 /** IMAGE WHEEL AND RADIO BUTTONS **/
 
+#imageWheelWrapper {
+    position: relative;
+    border: black solid;
+}
+
 #imageWheel {
     font-size: 36px;
     text-align: center;
@@ -147,7 +152,7 @@ p {
 }
 
 .customRadioBtn {
-    position: relative;
+    /* position: relative; */
     display: inline;
     margin-right: 40px;
 }
@@ -207,12 +212,19 @@ p {
 }
 
 /* Scroll Wheel Images */
+.scrollImageWrapper {
+    position: absolute;
+    width: 100%;
+    transform: translateX(-4px);
+}
+
 .ScrollImage {
     position: absolute;
     border-radius: 10px;
-    top: 60px;
+    top: 24px;
     width: 900px;
-    transform: translateX(50%);
+    left: 50%;
+    transform: translateX(-50%);
 
     height: 0px;
     display: block;
@@ -222,47 +234,47 @@ p {
     transition-timing-function: linear;
 }
 
-input:checked ~ .ScrollImage {
-    display: block;
+input:checked ~ .scrollImageWrapper .ScrollImage {
+    display: fixed;
 
     transition-property: height;
     transition-duration: 0.2s;
     transition-timing-function: linear;
 }
 
-input:checked ~ #hadesImage1 {
+input:checked ~ .scrollImageWrapper #hadesImage1 {
     height: 367px;
 }
 
-input:checked ~ #hadesImage2 {
+input:checked ~ .scrollImageWrapper #hadesImage2 {
     height: 505px;
 }
 
 
-input:checked ~ #hadesImage3 {
+input:checked ~ .scrollImageWrapper #hadesImage3 {
     height: 506px;
 }
 
-input:checked ~ #slayTheSpireImage1 {
+input:checked ~ .scrollImageWrapper #slayTheSpireImage1 {
     height: 506px;
 }
 
-input:checked ~ #slayTheSpireImage2 {
+input:checked ~ .scrollImageWrapper #slayTheSpireImage2 {
     height: 600px;
 }
 
-input:checked ~ #slayTheSpireImage3 {
+input:checked ~ .scrollImageWrapper #slayTheSpireImage3 {
     height: 506px;
 }
 
-input:checked ~ #deadCellsImage1 {
+input:checked ~ .scrollImageWrapper #deadCellsImage1 {
     height: 506px;
 }
 
-input:checked ~ #deadCellsImage2 {
+input:checked ~ .scrollImageWrapper #deadCellsImage2 {
     height: 506px;
 }
 
-input:checked ~ #deadCellsImage3 {
+input:checked ~ .scrollImageWrapper #deadCellsImage3 {
     height: 506px;
 }
