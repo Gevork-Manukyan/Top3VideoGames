@@ -97,7 +97,6 @@ p {
     height: 500px;
     float: right;
     margin-left: 35px;
-    margin-bottom: 40px;
 
     border: solid darkslategrey 15px;
     border-radius: 10px;
@@ -109,7 +108,7 @@ p {
 }
 
 .image:hover {
-    /* border: none; */
+    border: solid 15px aquamarine;
     transform: scale(1.05);
 }
 
