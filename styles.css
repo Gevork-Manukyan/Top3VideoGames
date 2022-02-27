@@ -140,6 +140,8 @@ p {
 #imageWheelWrapper {
     position: relative;
     border: black solid;
+    height: 700px;
+    z-index: 10;
 }
 
 #imageWheel {
@@ -154,6 +156,7 @@ p {
 .customRadioBtn {
     display: inline;
     margin-right: 40px;
+    z-index: 20;
 }
 
 /* Hide default radio buttons */
@@ -161,9 +164,9 @@ p {
     position: absolute;
     opacity: 0; 
     cursor: pointer;   
-    top: 35%;
+    top: 10px;
     transform: scale(2.5);
-    z-index: 10;
+    z-index: 5;
 
 }
 
