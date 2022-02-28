@@ -356,16 +356,16 @@ input:checked ~ .scrollImageWrapper #deadCellsImage3 {
 }
 
 
-/** HADES **/
+/** DEFINITION LIST **/
 
-.weaponsList dt {
+dt {
     font-weight: bold;
     font-size: 1.5rem;
     line-height: 40px;
     position: relative;
 }
 
-.weaponsList dd {
+dd {
     font-size: 24px;
     font-size: 1.55rem;
     text-align: justify;
