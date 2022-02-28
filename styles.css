@@ -312,6 +312,7 @@ input:checked ~ .scrollImageWrapper #deadCellsImage3 {
 }
 
 
+/** HADES MINI-IMAGES **/
 .miniImageLink:hover + .miniImage {
     opacity: 100%;
 }
@@ -353,6 +354,24 @@ input:checked ~ .scrollImageWrapper #deadCellsImage3 {
 
 #miniImageTitanBlood {
     z-index: 4;
+}
+
+
+/** SLAY THE SPIRE MINI-IMAGES **/
+.miniImage#ironclad {
+    transform: translate(-75%, -105%);
+}
+
+.miniImage#silent {
+    transform: translate(-70%, -105%);
+}
+
+.miniImage#defect {
+    transform: translate(-75%, -105%);
+}
+
+.miniImage#watcher {
+    transform: translate(-72%, -105%);
 }
 
 
