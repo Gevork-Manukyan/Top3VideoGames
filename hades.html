@@ -36,7 +36,10 @@
                     </p>
                 </section>
                 
-                <!-- TODO: Add description for 'span' -->
+                <!-- SPAN: span is a generic inline container for grouping content which doesn't inherently represent anything (aka, there is no other semantic element which is appropriate). -->
+                <!-- Span is similar to <div> except that span is an inline-element whereas div is a block-level element -->
+                <!-- This means span can be used to group together text that needs specific styling or that share specific attribute values (such as "lang") -->
+                <!-- In my case I am using span in order to apply specific styling to certain words. -->
                 <section>
                     <h2>Weapons</h2>
                     <p>
@@ -93,11 +96,31 @@
                 <aside>
                     <div id="imageWheelWrapper">
                         <div id="imageWheel">
-                            <!-- TODO: Add Description of 'label' and 'for' -->
+                            <!-- LABEL: label represents a caption for an item in a user interface -->
+                            <!-- Labels associate text with specific GUI elements, such as radio buttons, check boxes, text fields, etc. -->
+                            <!-- In my case I use label to add associated text to the radio buttons available for the user to click -->
+                            <!-- The benefits of this is that the text is programmatically associated with the buttons, so when a user focuses
+                                 on the button and they are using a screen reader, it will read out the associated label -->
+                            <!-- Another convientent bonus is that with a label, a user can click a label which will also activate the button -->
+
+                            <!-- FOR: the 'for' attribute is used together with the label element in order to specific which element the label is for -->
+                            <!-- This is done by give the corresponding element the same 'name' attribute as the 'for' -->
                             <label id="radioBtnsLabel" for="imageWheel">Hades Game Images</label>
         
                             <div class="customRadioBtn">
-                                <!-- TODO: Add Description of 'type', 'input', and 'checked' -->
+                                <!-- INPUT: the input element specifies an input field where the user can enter data -->
+                                <!-- The input element can be displayed in many different ways (buttons, text fields, date, etc.) -->
+                                <!-- In my case, I am using the input field as a radio button -->
+
+                                <!-- TYPE: The 'type' attribute is used an be used with a number of different elements. -->
+                                <!-- Type is used to specify which of the many forms an element should take on. -->
+                                <!-- In my case I use type to specify that I want an input element of type 'radio' -->
+
+                                <!-- CHECKED: The 'checked' attribute is a boolean attribute and represents if a button is clicked or not -->
+                                <!-- The checked attribute is used in tandem with the input element, specifically of type radio and checkbox -->
+                                <!-- When applied to an element, the element will be loaded to the page pre-selected -->
+                                <!-- Checked can also be manipulated with javascript -->
+                                <!-- In my case, I use checked to pre-select the first image in the wheel so that it is always shown first -->
                                 <input type="radio" name="imageWheel" id="olympianGods" checked >
                                 <span class="checkmark"></span>
                                 <div class="scrollImageWrapper">
