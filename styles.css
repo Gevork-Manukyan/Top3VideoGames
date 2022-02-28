@@ -1,6 +1,8 @@
 body {
-    background-color: rgb(177, 226, 226);
+    background-image: linear-gradient(to top, #89ebbe, #82eaca, #7fe9d5, #7fe7de, #83e5e5);
     margin: 0px 0px;
+
+    
 }
 
 a.link {
