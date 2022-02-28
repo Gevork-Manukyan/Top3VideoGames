@@ -160,9 +160,14 @@ p {
 
 #imageWheelWrapper {
     position: relative;
-    border: black solid;
+    margin-top: 60px;
+    padding-top: 15px;
     height: 700px;
+    border-radius: 10px;
     z-index: 10;
+
+    color: aliceblue;
+    background-color: darkslategray;
 }
 
 #imageWheel {
@@ -172,6 +177,7 @@ p {
 
 #radioBtnsLabel {
     margin-right: 15px;
+    font-weight: bold;
 }
 
 .customRadioBtn {
@@ -185,7 +191,7 @@ p {
     position: absolute;
     opacity: 0; 
     cursor: pointer;   
-    top: 10px;
+    top: 30px;
     transform: scale(2.5);
     z-index: 5;
 
@@ -246,7 +252,6 @@ p {
     position: absolute;
     border-radius: 10px;
     top: 24px;
-    width: 900px;
     left: 50%;
     transform: translateX(-50%);
 
@@ -261,46 +266,47 @@ p {
 input:checked ~ .scrollImageWrapper .ScrollImage {
     display: fixed;
 
+    height: 600px;
+
     transition-property: height;
     transition-duration: 0.2s;
     transition-timing-function: linear;
 }
 
-input:checked ~ .scrollImageWrapper #hadesImage1 {
-    height: 367px;
+input ~ .scrollImageWrapper #hadesImage1 {
+    width: 1469px;
 }
 
-input:checked ~ .scrollImageWrapper #hadesImage2 {
-    height: 505px;
+input ~ .scrollImageWrapper #hadesImage2 {
+    width: 1068px;
 }
 
-
-input:checked ~ .scrollImageWrapper #hadesImage3 {
-    height: 506px;
+input ~ .scrollImageWrapper #hadesImage3 {
+    width: 1066px;
 }
 
-input:checked ~ .scrollImageWrapper #slayTheSpireImage1 {
-    height: 506px;
+input ~ .scrollImageWrapper #slayTheSpireImage1 {
+    width: 1200px;
 }
 
-input:checked ~ .scrollImageWrapper #slayTheSpireImage2 {
-    height: 600px;
+input ~ .scrollImageWrapper #slayTheSpireImage2 {
+    width: 900px;
 }
 
-input:checked ~ .scrollImageWrapper #slayTheSpireImage3 {
-    height: 506px;
+input ~ .scrollImageWrapper #slayTheSpireImage3 {
+    width: 1066px;
 }
 
-input:checked ~ .scrollImageWrapper #deadCellsImage1 {
-    height: 506px;
+input ~ .scrollImageWrapper #deadCellsImage1 {
+    width: 960px;
 }
 
-input:checked ~ .scrollImageWrapper #deadCellsImage2 {
-    height: 506px;
+input ~ .scrollImageWrapper #deadCellsImage2 {
+    width: 900px;
 }
 
-input:checked ~ .scrollImageWrapper #deadCellsImage3 {
-    height: 506px;
+input ~ .scrollImageWrapper #deadCellsImage3 {
+    width: 1140px;
 }
 
 
