@@ -282,12 +282,87 @@ input:checked ~ .scrollImageWrapper #deadCellsImage3 {
 }
 
 
+/** MINI-IMAGE **/
+
+.miniImageLink {
+    position: relative;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    background-color: aliceblue;
+    user-select: none;
+    z-index: 2;
+
+    transition: background-color 0.1s linear;
+}
+
+.miniImageLink:hover {
+    background-color: rgb(177, 226, 226);
+    cursor: pointer;
+}
+
+.miniImage {
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 35% 35% 0% 0%;
+    height: 125px;
+    z-index: 0;
+    
+    opacity: 0%;
+    transition: opacity 0.2s linear;
+}
+
+
+.miniImageLink:hover + .miniImage {
+    opacity: 100%;
+}
+
+.miniImage#stygius {
+    transform: translate(-130%, -90%);
+}
+
+.miniImage#varatha {
+    transform: translate(-130%, -90%);
+}
+
+.miniImage#aegis {
+    transform: translate(-85%, -93%);
+}
+
+.miniImage#coronacht {
+    transform: translate(-90%, -93%);
+}
+
+.miniImage#malphon {
+    transform: translate(-100%, -74%);
+}
+
+.miniImage#exagryph {
+    transform: translate(-90%, -90%);
+}
+
+.miniImage#chthonicKey {
+    height: 75px;
+    transform: translate(-140%, -103%);
+}
+
+.miniImage#titanBlood {
+    height: 80px;
+    z-index: 3;
+    transform: translate(-130%, -105%);
+}
+
+#miniImageTitanBlood {
+    z-index: 4;
+}
+
+
 /** HADES **/
 
 .weaponsList dt {
     font-weight: bold;
     font-size: 1.5rem;
     line-height: 40px;
+    position: relative;
 }
 
 .weaponsList dd {
@@ -296,4 +371,5 @@ input:checked ~ .scrollImageWrapper #deadCellsImage3 {
     text-align: justify;
     line-height: 40px;
     margin-bottom: 15px;
+    position: relative;
 }
