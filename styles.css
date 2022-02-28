@@ -438,3 +438,108 @@ dd {
     margin-bottom: 15px;
     position: relative;
 }
+
+
+
+
+
+/** MEDIA QUERIES **/
+
+@media screen and (max-width: 2100px) {
+
+    #imageWheelWrapper {
+        height: 450px;
+    }
+    
+    input:checked ~ .scrollImageWrapper .ScrollImage {
+        height: 300px;
+    }
+
+    input ~ .scrollImageWrapper #hadesImage1 {
+        width: 734px;
+    }
+    
+    input ~ .scrollImageWrapper #hadesImage2 {
+        width: 534px;
+    }
+    
+    input ~ .scrollImageWrapper #hadesImage3 {
+        width: 533px;
+    }
+    
+    input ~ .scrollImageWrapper #slayTheSpireImage1 {
+        width: 600px;
+    }
+    
+    input ~ .scrollImageWrapper #slayTheSpireImage2 {
+        width: 450px;
+    }
+    
+    input ~ .scrollImageWrapper #slayTheSpireImage3 {
+        width: 533px;
+    }
+    
+    input ~ .scrollImageWrapper #deadCellsImage1 {
+        width: 480px;
+    }
+    
+    input ~ .scrollImageWrapper #deadCellsImage2 {
+        width: 450px;
+    }
+    
+    input ~ .scrollImageWrapper #deadCellsImage3 {
+        width: 570px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    #imageWheel {
+        font-size: 26px;
+    }
+
+    #imageWheelWrapper {
+        height: 260px;
+    }
+    
+    input:checked ~ .scrollImageWrapper .ScrollImage {
+        height: 150px;
+    }
+
+    input ~ .scrollImageWrapper #hadesImage1 {
+        width: 367px;
+    }
+    
+    input ~ .scrollImageWrapper #hadesImage2 {
+        width: 267px;
+    }
+    
+    input ~ .scrollImageWrapper #hadesImage3 {
+        width: 266px;
+    }
+    
+    input ~ .scrollImageWrapper #slayTheSpireImage1 {
+        width: 300px;
+    }
+    
+    input ~ .scrollImageWrapper #slayTheSpireImage2 {
+        width: 225px;
+    }
+    
+    input ~ .scrollImageWrapper #slayTheSpireImage3 {
+        width: 266px;
+    }
+    
+    input ~ .scrollImageWrapper #deadCellsImage1 {
+        width: 240px;
+    }
+    
+    input ~ .scrollImageWrapper #deadCellsImage2 {
+        width: 225px;
+    }
+    
+    input ~ .scrollImageWrapper #deadCellsImage3 {
+        width: 285px;
+    }
+}
